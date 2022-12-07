@@ -1,2 +1,2 @@
-# DIO-desafio-github
-Desafio do Pottencial.NET da Dio - Git/GitHub
+# Repositório do Desafio de Projeto sobre GIT/GITHUB da DIO 
+Bootcamp Pottencial.NET da DIO - Git/GitHub
