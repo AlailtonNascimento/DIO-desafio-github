@@ -1,0 +1,73 @@
+Alguns comandos
+pwd - mostra o caminho que vc usou para está onde está
+clear - limpar tela(atalho CTRL L)
+ls - liste, mostra o que tem na pasta.
+cat + "nome do arquivo" - mostra  o conteudo dendo arquivo
+mkdir + nome da pasta - cria uma pasta
+git init - inicializa um repositório no github
+ls -a - mostra pasta/arquivos ocultos
+cd .. - volta um nível/pasta, ou seja volta para a pasta anterior
+mv - camando para mover,
+exemplo: mv "nome do arquivo com formato" ./"nome da pasta que vai recber"/
+
+
+Usando o GIT BASH
+Comando - git init - Inicia/prepara para fazer transfrencia/copia de 
+arquivo ou pasta - repositório
+
+Precisar fazer algumas configuração iniciais para o repositorio
+git config --global user.email "seu email do github"
+
+Em seguida, o comando
+git config --global user.name "Nome de preferencia igual no github"
+
+("MARKDOWN" - tipo de arquivo de marcação de texto, extensão é .md, ).
+
+com o arquivo pronto para subir usa o comando
+
+git add * / git add.- adicionar todos os aquivos da pasta
+
+Em seguida, faz o commit, onde precisa escrever algo
+git commit -m "Commit Inicial"
+
+git status - diz o estado atual dos aquivos no git - importante
+
+Quando é feito alguma mudança na pasta que já havia feito o git init
+é preciso fazer um novo git add para adicionar as alterações feitas
+o comando é específico
+
+Git add "nome do arquivo modado com formato do arquivo" "nome da pasta adcionada"/
+exemplo: git add strogonoff.md receitas/
+
+em seguida faz o commit -m infomando as alterações aí sim agora está pronto para subir
+o comando é
+git commit -m "Informa a mundança feita"
+
+README é arquivo QUE SERVE DE INDEXADOR, ESSE ARQUIVOS QUE AS PESSOAS VÃO VER
+E PARA PODER VER TODAS RECEITAS NA LISTA DE RECITAS, NO NOSSO EXEMPLO.
+
+comando ECHO > README.md
+
+comando para reescrever email e nome - é interesante que sejam os mesmos do github
+git config --global --unset user.email 
+em seguida o camando
+git config --global --unset user.name
+
+Para ver as configurações ja feita no git, o comando é
+git config --list
+
+para enviar o arquivo para github remoto
+-entra no github
+-cria um novo repositório
+- copia o caminho http
+-abri git bash
+- usa o camando git remote add origin "cola/digita o link compiado do github"
+(ORIGIN É UM APELIDO DADO PARA NÃO TER DE COPIAR TODA VEZ O ENDEREÇO/CAMINHO)
+
+em seguida, usa o comando:
+git push origin master ou main - ENVIA/EMPURRA PARA O REPOSITÓRIO
+
+git remote -v - mostra a list de repositorio cadastrado
+
+git pull origin master ou main - puxa o repositório remoto para local
+
